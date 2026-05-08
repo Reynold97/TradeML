@@ -1,0 +1,23 @@
+title: Personal Blog
+description: Notes, posts, and ideas.
+author: Reynold
+theme: minima
+
+minima:
+  skin: classic
+  date_format: "%b %-d, %Y"
+
+show_excerpts: true
+
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github
+  - README.md
