@@ -1,6 +1,8 @@
 title: Personal Blog
 description: Notes, posts, and ideas.
 author: Reynold
+url: "https://Reynold97.github.io"
+baseurl: "/TradeML"
 theme: minima
 
 minima:
