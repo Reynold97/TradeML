@@ -1,0 +1,113 @@
+// ============================================
+// Blog UI Refresh — Spacing & Style Refinements
+// Issue #4: better rhythm, readability, polish
+// ============================================
+
+// ── Base spacing & rhythm ───────────────────
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+// ── Header ──────────────────────────────────
+.site-header {
+  border-bottom: 1px solid $border-color;
+  padding: 18px 0;
+}
+
+.site-title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+// ── Post list ───────────────────────────────
+.post-list {
+  list-style: none;
+  margin-left: 0;
+
+  > li {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid $border-color;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.post-list .post-link {
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.post-meta {
+  font-size: 0.875rem;
+  color: $grey-color;
+  margin-top: 0.25rem;
+}
+
+// ── Post page ───────────────────────────────
+.post-content {
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.01em;
+  }
+
+  p {
+    margin-bottom: 1.3rem;
+  }
+
+  ul, ol {
+    margin-bottom: 1.3rem;
+  }
+
+  blockquote {
+    border-left: 4px solid $brand-color;
+    padding: 0.5rem 1rem;
+    color: $grey-color-dark;
+    background-color: $code-background-color;
+    border-radius: 0 4px 4px 0;
+  }
+
+  img {
+    border-radius: 4px;
+  }
+}
+
+// ── Links ───────────────────────────────────
+a {
+  transition: color 0.15s ease;
+}
+
+// ── Code ────────────────────────────────────
+code {
+  background-color: $code-background-color;
+  border-radius: 3px;
+  padding: 0.15em 0.4em;
+  font-size: 0.88em;
+}
+
+pre {
+  code {
+    display: block;
+    padding: 1rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+}
+
+// ── Footer ──────────────────────────────────
+.site-footer {
+  border-top: 1px solid $border-color;
+  padding: 2rem 0;
+}
+
+// ── 404 page ────────────────────────────────
+.page-content .text-center {
+  text-align: center;
+}

@@ -6,7 +6,6 @@ baseurl: "/TradeML"
 theme: minima
 
 minima:
-  skin: classic
   date_format: "%b %-d, %Y"
 
 show_excerpts: true
