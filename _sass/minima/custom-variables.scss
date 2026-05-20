@@ -1,0 +1,47 @@
+// ============================================
+// Blog UI Refresh — Typography & Color Palette
+// Issue #4: modern, readable, cohesive look
+// ============================================
+
+// ── Typography ──────────────────────────────
+$base-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$base-font-size: 18px;
+$base-line-height: 1.7;
+
+$heading-font-family: $base-font-family;
+$headings-font-weight: 700;
+
+// ── Color palette ────────────────────────────
+// A contemporary, warm-neutral palette
+$base-color:            #2d3748;   // body text — dark slate
+$brand-color:           #3182ce;   // primary accent — modern blue
+$brand-color-light:     lighten($brand-color, 30%);
+$brand-color-dark:      darken($brand-color, 15%);
+
+// Background tones
+$background-color:      #fafafa;   // site background — warm off-white
+$code-background-color: #edf2f7;   // code blocks — cool light gray
+
+// Meta / secondary text
+$grey-color:            #718096;   // post meta, dates
+$grey-color-light:      #a0aec0;
+$grey-color-dark:       #4a5568;
+
+// Borders
+$border-color:          #e2e8f0;
+
+// Links
+$link-base-color:       $brand-color;
+$link-visited-color:     #2b6cb0;
+$link-hover-color:      #2c5282;
+
+// Header / footer
+$header-color:          $base-color;
+$header-bg:             transparent;
+$footer-color:          $grey-color;
+
+// Table
+$table-border-color:    $border-color;
+$table-header-bg:       #edf2f7;
