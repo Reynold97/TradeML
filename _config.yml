@@ -1,0 +1,24 @@
+title: Personal Blog
+description: Notes, posts, and ideas.
+author: Reynold
+url: "https://Reynold97.github.io"
+baseurl: "/TradeML"
+theme: minima
+
+minima:
+  skin: classic
+  date_format: "%b %-d, %Y"
+
+show_excerpts: true
+
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github
+  - README.md
